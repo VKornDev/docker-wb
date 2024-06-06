@@ -12,5 +12,3 @@ docker ps -a
 
 docker rm fib
 docker rmi gcc
-
-docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gcc:4.9 gcc -o output main.c
